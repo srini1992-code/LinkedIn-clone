@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "firebase": "^8.2.1",
+    "react-flip-move": "^3.0.4"
+  }
+}
