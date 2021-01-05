@@ -12,7 +12,6 @@ const Posts = forwardRef(
     // name = name ?? 'No Name';
     const nameType = typeof name;
     name = nameType === 'string' ? name : String(name);
-    console.log(nameType);
     return (
       <div ref={ref} className="posts">
         <div className="posts__header">
