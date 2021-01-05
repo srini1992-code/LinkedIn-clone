@@ -1,4 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+the demo app is live at here
+https://linkedinclone-50c96.netlify.app/
 
 ## Available Scripts
 
