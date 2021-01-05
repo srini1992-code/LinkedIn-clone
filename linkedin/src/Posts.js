@@ -9,10 +9,16 @@ import ShareOutlinedIcon from '@material-ui/icons/ShareOutlined';
 
 const Posts = forwardRef(
   ({ name, description, message, photoUrl, timestamp }, ref) => {
+    // name = name ?? 'No Name';
+    const nameType = typeof name;
+    name = nameType === 'string' ? name : String(name);
+    console.log(nameType);
     return (
       <div ref={ref} className="posts">
         <div className="posts__header">
+          {/* <Avatar src={photoUrl}>{name[0]}</Avatar> */}
           <Avatar src={photoUrl}>{name[0]}</Avatar>
+
           <div className="post__info">
             <h2>{name}</h2>
             <p>{description}</p>
